@@ -1,153 +1,297 @@
-//main: ..//style.less
+// main: ..//style.less
 
 @media (max-width:1024px){
-    .header{
-        height: 750px;
+ .b4{
+     .b4__wrapper{
+         .b4__pictures{
+             flex-direction: column;
+         }
+     }
+ }
+}
+@media (max-width:768px){
+    .form{
+        width: 350px;
     }
 }
 
-@media (max-width:768px) {
-    .together__evanorm{
-        .together_wrapper {
-            flex-direction: column;
-        }
-    } 
-}
 @media (max-width:426px){
+    *{font-size: 14px;}
     .header{
-        background-position: unset;
-        .header__wrapper{
-            flex-direction: column;
-           
-            .header__tabletka {
-                display: none;
-            }
-        }
-    }
-    .why{
-        .why__header{
-            h3{
-                font-size: 15px;
-            }
-        }
-        
-        .why__wrapper{
-            width: 400px;
-            flex-direction: column;
-            margin-top: 0px;
-        }
-    }
-    .why__finish{
-        font-size: 18px;
-    }
-    .bg4{
-        margin-top: -65px;
         background:none;
+        max-width: 100%;
+        .header__wrapper{
+            float:none;
+        }
     }
-    
-    .kept{
-        .kept__header{
-            h3{
-                font-size: 20px;
+    .b2{
+        .b2__wrapper{
+            p{
+                width: 400px;
             }
         }
-        .kept_boxpicture{ 
-            .kept__picture{
-                img{
-                    height: 300px;  
+    }
+
+    .erosion{
+        .erosion__wrapper{
+            flex-direction: column;
+            .erosion__item{
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .b4{
+        .b4__wrapper{
+            .b4__pictures{
+                
+                .b4__picture{
+                    width: 400px;
+                    img{
+                        height: 250px;
+                    }
                 }
             }
         }
-        .kept__wrapper{
+        h3{
+            
+            max-width: 100%;
+            font-size: 15px;
+        }
+    }
+        
+    .course{
+        .container{
             width: 400px;
-            .kept__list{
-                margin-top: 20px;
-                margin-bottom: 20px;
-            }
         }
     }
-    .b6{
-        .b6__header{
+    .compound{
+        .container{
+            width: 400px;
+        h2{
+            font-size: 14px;
+        }   
+        }
+
+    }
+    .slider{
+        .slider__header{
             h2{
-                font-size: 25px;
+                font-size: 19px;
             }
         }
     }
-    footer{
-        .footer__picture{
-            img{
-                height: 300px;
-            }
-        }
-    }
+
+
 }
 
 @media (max-width:376px){
+    *{font-size: 12px;}
     .header{
-        background-position: unset;
-        .header__wrapper{
+        background:none;
+        max-width: 100%;
+    }
+    .b2{
+        .b2__wrapper{
+            p{
+                width: 375px;
+            }
+        }
+    }
+
+    .erosion{
+        .erosion__wrapper{
             flex-direction: column;
-           
-            .header__tabletka {
-                display: none;
+            .erosion__item{
+                margin-top: 10px;
             }
         }
     }
-    .together__evanorm{
-        .together_wrapper{
-            .together_block{
-                padding: 70px 0;
+
+    .b4{
+        .b4__wrapper{
+            .b4__pictures{
+                
+                .b4__picture{
+                    width: 375px;
+                    img{
+                        height: 230px;
+                    }
+                }
             }
+        }
+        h3{
+            
+            width: 375px;
+            font-size: 15px;
         }
     }
-    .why{
-        margin-top: -65px;
-        .why__header{
-            h3{
-                font-size: 15px;
-            }
-        }
         
-        .why__wrapper{
-            width: 350px;
-            flex-direction: column;
-            margin-top: 0px;
+    .course{
+
+        .container{
+            width: 345px;
+        }
+        .course__wrapper{
+        h3{
+            font-size: 20px;
+        }
+        .course__list{
+            li{
+                font-size: 12px;
+            }
+        }
+        .course__descr{
+            font-size: 20px;
+        }
         }
     }
-    .why__finish{
-        font-size: 18px;
-    }
+    .compound{
+        margin-top: -50px;
+        margin-bottom: 100px;
+            .container{
+                width: 375px;
+                h2{
+                    font-size: 14px;
+                }  
+            .compound__wrapper{
+            .compound__inner{
+                .compound__right{
+                    width: 310px;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+            }
+ 
+
+        }
 
     
-    .kept{
-        .kept__header{
-            h3{
-                font-size: 20px;
+    .slider{
+        .slider__header{
+            h2{
+                font-size: 19px;
             }
         }
-        .kept_boxpicture{ 
-            .kept__picture{
-                img{
-                    height: 250px;  
-                }
-          
-        }}
-       
-        .kept__wrapper{
-            width: 350px;
-        }
+    }
+
+
+}
+
+
+@media (max-width:321px){
+*{font-size:10px ;}
+    .header{
+        background:none;
+        max-width: 100%;
     }
     .form{
-        max-width: 375px;
-
+        width: 300px;
     }
-    footer{
-        .footer__wrapper{
-        .footer__picture{
-            img{
-                height: 250px;
+    .b2{
+        .b2__wrapper{
+            p{
+                width: 300px;
             }
         }
-    } 
+    }
+
+    .erosion{
+        .erosion__wrapper{
+            flex-direction: column;
+            .erosion__item{
+                margin-top: 10px;
+            }
         }
     }
+
+    .b4{
+        .b4__wrapper{
+            .b4__pictures{
+                
+                .b4__picture{
+                    width: 300px;
+                    img{
+                        height: 185px;
+                    }
+                }
+            }
+        }
+        h3{
+            
+            width: 325px;
+            font-size: 10px;
+        }
+    }
+        
+    .course{
+
+        .container{
+            width: 320px;
+        }
+        .course__wrapper{
+        h3{
+            font-size: 10px;
+        }
+        .course__list{
+            font-size: 10px;
+            li{
+                font-size: 10px;
+            }
+        }
+        .course__descr{
+            font-size: 15px;
+        }
+        }
+    }
+    .compound{
+            .container{
+                width: 300px;
+                h2{
+                    font-size: 14px;
+                }  
+            .compound__wrapper{
+            .compound__inner{
+                .compound__right{
+                    width: 300px;
+                    h3{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 10px;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+            }
+ 
+
+        }
+
+    
+    .slider{
+        .slider__header{
+            h2{
+                font-size: 10px;
+            }
+            
+        }
+        .slider__inner{
+        .slider__right{
+            p{
+                font-size: 14px;
+            }
+        }
+    }  
+    }
+
+
+}
