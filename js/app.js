@@ -1,4 +1,3 @@
-
 const prev = document.querySelector('.prev'),
     next = document.querySelector('.next'),
     slides = document.querySelectorAll('.mySlides'),
@@ -54,5 +53,3 @@ dots.forEach((item, indexDot) => {
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
 
-
-const interval = setInterval(nextSlide,8000)
