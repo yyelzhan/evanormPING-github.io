@@ -5,6 +5,7 @@
         height: 750px;
     }
 }
+
 @media (max-width:900px) {
     .together__evanorm {
         .together_wrapper {
@@ -17,23 +18,26 @@
 
 @media (max-width:770px) {
 
-    .why{
-    .why__wrapper {
+    .why {
+        .why__wrapper {
             width: 100%;
+        }
     }
-}   .b6 {
 
-    .b6__inner {
+    .b6 {
 
-        margin: 0;
+        .b6__inner {
+
+            margin: 0;
+        }
     }
-}
 }
 
 @media (max-width:670px) {
     .header {
-        
+
         background-position: -200px;
+
         .header__wrapper {
             flex-direction: column;
 
@@ -43,9 +47,9 @@
         }
 
     }
-  
 
-  
+
+
 
     .why {
         .why__header {
@@ -55,23 +59,25 @@
         }
 
         .why__wrapper {
-            
+
             flex-direction: column;
             margin-top: 0px;
-            .why__item{
-                .why__list{
-                    h3{
+
+            .why__item {
+                .why__list {
+                    h3 {
                         font-size: 20px;
                         margin-bottom: 10px;
                     }
                 }
             }
         }
-            .why__finish {
-        margin-top: 20px;
-        font-size: 19px;
-        line-height: 25px;
-    }
+
+        .why__finish {
+            margin-top: 20px;
+            font-size: 19px;
+            line-height: 25px;
+        }
     }
 
 
@@ -79,10 +85,14 @@
     .bg4 {
         margin-top: -65px;
         background: none;
+        .form{
+            width: 300px;
+        }
     }
 
     .kept {
         .kept__header {
+            padding: 75px 0;
             h3 {
                 font-size: 20px;
             }
@@ -90,10 +100,11 @@
 
         .kept_boxpicture {
             .kept__picture {
-                 top: -160px;
+                top: -160px;
+
                 img {
                     width: 100%;
-                   
+
                 }
             }
         }
@@ -139,44 +150,7 @@
 }
 
 @media (max-width:425px) {
-    .header {
-        background-position: unset;
 
-        .header__wrapper {
-            flex-direction: column;
-
-            .header__tabletka {
-                display: none;
-            }
-        }
-    }
- 
-
-    .why {
-        .why__header {
-            h3 {
-                font-size: 19px;
-            }
-        }
-
-        .why__wrapper {
-            width: 400px;
-            flex-direction: column;
-            margin-top: 0px;
-            .why__item{
-                .why__list{
-                    h3{
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-            .why__finish {
-        margin-top: 20px;
-        font-size: 19px;
-        line-height: 25px;
-    }
-    }
 
 
     .kept {
@@ -189,7 +163,8 @@
         .kept_boxpicture {
             .kept__picture {
                 img {
-                    width: 100%;;
+                    width: 100%;
+                    ;
                 }
             }
         }
@@ -234,17 +209,6 @@
 }
 
 @media (max-width:376px) {
-    .header {
-
-
-        .header__wrapper {
-            flex-direction: column;
-
-            .header__tabletka {
-                display: none;
-            }
-        }
-    }
 
     .together__evanorm {
         .together_header {
@@ -255,7 +219,11 @@
 
         .together_wrapper {
             .together_block {
-                margin-top: 70px ;
+                margin-top: 70px;
+                width: 100%;
+                .descr{
+                    width: 100%;
+                }
             }
         }
     }
@@ -280,32 +248,29 @@
         font-size: 18px;
     }
 
-
     .kept {
-
         .kept__header {
             h3 {
                 font-size: 20px;
             }
         }
-        .kept_boxpicture {
-            display: none;
-        }
+            .kept_boxpicture {
+                .kept__picture {
+                    top: -140px;
+                }
+            }
+            .kept__wrapper {
+                width: 95%;
 
-
-        .kept__wrapper {
-            width: 95%;
-            .kept__list {
-                
-
-                .kept__descr {
-                    font-size: 15px;
+                .kept__list {
+                    .kept__descr {
+                        font-size: 15px;
+                    }
                 }
             }
 
         }
-
-    }
+    
 
     .form {
         max-width: 375px;
@@ -337,13 +302,13 @@
     }
 
     .together__evanorm {
-        .together_header{
-            h3{
+        .together_header {
+            h3 {
                 line-height: 25px;
                 font-size: 18px;
             }
         }
- 
+
     }
 
     .why {
